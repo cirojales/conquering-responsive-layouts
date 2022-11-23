@@ -39,19 +39,21 @@ h1 {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
+  padding: 2em 0;
+}
+
+.container-light h2 {
+  color: #87629a;
 }
 
 .row {
-  /* display: flex => flex container */
   display: flex;
-
-  /* can't use yet */
-  /* gap: 100px; */
+  gap: 1em;
 }
 
 .col {
-  /* these are now flex items */
   width: 100%;
+  text-align: center;
 }
 
 .hero {
@@ -82,4 +84,9 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.bottom {
+  background-color: #136c72;
+  color: #fff;
 }
