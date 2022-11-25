@@ -91,17 +91,17 @@ h1 {
   margin-top: 2em;
 }
 
-.main__left-col {
+.main__primary-content {
   text-align: justify;
   width: 61%;
+  margin-top: 1.1em;
 }
 
-.main__left-col > h2 {
+.main__primary-content > h2 {
   color: #136c72;
-  padding-top: 0.7em;
 }
 
-.main__right-col {
+.main__sidebar {
   padding: 1.2em 1.5em;
   margin-bottom: 2em;
   width: 35%;
@@ -110,6 +110,6 @@ h1 {
   color: #fff;
 }
 
-.main__right-col__text + .main__right-col__text {
+.main__sidebar__text + .main__sidebar__text {
   margin-top: 3em;
 }
