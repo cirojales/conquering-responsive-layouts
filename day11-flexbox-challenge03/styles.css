@@ -83,6 +83,10 @@ header {
   width: 100%;
 }
 
+.nav.row {
+  justify-content: flex-start;
+}
+
 .nav__logo-link {
   display: flex;
   margin-right: 1em;
