@@ -60,6 +60,11 @@ h1 {
   justify-content: space-between;
 }
 
+ul {
+  display: flex;
+  align-items: center;
+}
+
 .col {
   width: 100%;
 }
@@ -75,6 +80,12 @@ header {
 
 .nav {
   padding: 0.8em 0;
+  width: 100%;
+}
+
+.nav__logo-link {
+  display: flex;
+  margin-right: 1em;
 }
 
 .nav__list {
@@ -83,6 +94,8 @@ header {
   list-style: none;
   display: flex;
   gap: 1em;
+  align-items: center;
+  font-size: 0.8em;
 }
 
 .nav__link {
