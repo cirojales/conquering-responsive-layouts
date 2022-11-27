@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #f3eed9;
+  text-align: center;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+}
+
+.header__span {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.4em;
+  font-weight: 300;
+}
+
+.header__heading {
+  margin: 0.3em auto 0;
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3.8rem;
+  line-height: 1;
+  width: 70%;
+}
