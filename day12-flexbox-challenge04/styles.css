@@ -17,6 +17,7 @@ body {
 .row {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
 }
 
 .col {
@@ -77,4 +78,5 @@ p + p {
   max-width: 95%;
   margin: 0 auto;
   line-height: 1.4;
+  display: flex;
 }
