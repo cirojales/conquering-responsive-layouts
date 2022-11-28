@@ -9,8 +9,7 @@ body {
 }
 
 .container {
-  width: 80%;
-  max-width: 1128px;
+  width: min(80%, 70.5em);
   margin: 0 auto;
 }
 
@@ -28,12 +27,13 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .hero {
   background-color: #f3eed9;
   text-align: center;
-  min-height: 660px;
+  min-height: 600px;
 }
 
 .hero__span {
@@ -154,4 +154,16 @@ p + p {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
+}
+
+.container.row > * {
+  flex-basis: 100%;
+}
+
+.container.row {
+  gap: 2em;
+}
+
+.first-section__wrapper > * {
+  flex-basis: 100%;
 }
