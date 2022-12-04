@@ -24,9 +24,23 @@ h2 {
   margin: 0;
 }
 
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 2em 2em;
+}
+
 .col {
   display: flex;
-  gap: 2em;
+  gap: 3em;
+}
+
+.col > * {
+  flex-basis: 100%;
+}
+
+img {
+  width: 100%;
 }
 
 .center-text {
@@ -38,11 +52,6 @@ h2 {
   min-height: 41.25em;
   display: flex;
   align-items: center;
-}
-
-.container {
-  max-width: 1128px;
-  margin: 0 auto;
 }
 
 .main__paragraph {
@@ -62,7 +71,7 @@ h2 {
 }
 
 .first-section {
-  min-height: 23em;
+  min-height: 27em;
   display: flex;
   align-items: center;
 }
@@ -80,4 +89,50 @@ h2 {
   margin-top: 2em;
   text-align: left;
   line-height: 1.5;
+}
+
+.second-section {
+  background-color: var(--bg-dark);
+  color: var(--bg-white);
+  min-height: 27em;
+  display: flex;
+  align-items: center;
+}
+
+.second-section__heading {
+  font-family: var(--font-secondary);
+  color: var(--bg-light);
+  font-size: 2.2rem;
+}
+
+.second-section__paragraph {
+  font-family: var(--font-primary);
+  font-size: 1.3rem;
+  margin-top: 1em;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.third-section {
+  background-color: var(--bg-brown);
+  color: var(--bg-white);
+  min-height: 27em;
+  display: flex;
+  align-items: center;
+}
+
+.third-section__heading {
+  font-family: var(--font-secondary);
+  color: var(--bg-light);
+  font-size: 2.2rem;
+}
+
+.third-section__paragraph {
+  font-family: var(--font-primary);
+  font-size: 1.3rem;
+  margin-top: 1em;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 200;
 }
