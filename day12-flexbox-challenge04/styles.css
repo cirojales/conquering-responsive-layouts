@@ -24,9 +24,16 @@ h2 {
   margin: 0;
 }
 
+.col {
+  display: flex;
+  gap: 2em;
+}
+
+.center-text {
+  text-align: center;
+}
 .main {
   background-color: var(--bg-light);
-  text-align: center;
   min-height: auto;
   min-height: 41.25em;
   display: flex;
@@ -40,17 +47,37 @@ h2 {
 
 .main__paragraph {
   color: var(--bg-dark);
-  font-size: 1.1em;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  font-weight: 100;
 }
 
 .main__heading {
   font-family: var(--font-secondary);
-  font-size: 3.7em;
+  font-size: 3.7rem;
   color: var(--bg-brown);
   max-width: 70%;
   margin: 0 auto;
   margin-top: 0.2em;
+}
+
+.first-section {
+  min-height: 23em;
+  display: flex;
+  align-items: center;
+}
+
+.first-section__heading {
+  font-family: var(--font-secondary);
+  font-size: 2.2rem;
+  color: var(--bg-brown);
+}
+
+.first-section__paragraph {
+  font-family: var(--font-primary);
+  color: var(--bg-dark);
+  font-size: 1.3rem;
+  margin-top: 2em;
+  text-align: left;
+  line-height: 1.5;
 }
