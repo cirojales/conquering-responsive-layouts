@@ -30,12 +30,12 @@ h2 {
   padding: 2em 2em;
 }
 
-.col {
+.row {
   display: flex;
   gap: 3em;
 }
 
-.col > * {
+.row > * {
   flex-basis: 100%;
 }
 
